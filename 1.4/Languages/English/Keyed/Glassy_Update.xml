@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <Glassy.Update.Title>Glassy Update Info</Glassy.Update.Title>
+  
+  <Glassy.Update.label>
+2023/03/27(0.1.3.0):
+*Fixed some graphics
+
+*Separated FacialAnimation definitions into separate mods
+To reduce the load at startup, I have separated FacialAnimation images and definitions into separate mods.
+Please subscribe from the collection.
+
+2023/03/11(0.1.2.1):
+*Glassy's skills are now automatically deactivated when he leaves a faction
+
+2023/03/05(0.1.2.0):
+*Glassy now appear dressed according to their roles
+
+2023/01/31(0.1.1.4):
+*Research race restrictions have been removed
+
+*Added new equipment
+Instead of adding the equipment of another race, this mod is now added by itself
+Please note that you can no longer wear clothes of other races
+
+*Glassy who appeared at the event could not be tamed, so this has been corrected so that he can be tamed by making her a wild man when he appears
+
+*Fixed a bug in which some clothing textures were incorrectly specified
+
+2023/01/30(0.1.1.3):
+*Various statuses are no longer corrected based on age
+
+2023/01/29(0.1.1.2):
+*Increased the number of hairstyle types to 8
+
+2023/01/19(0.1.1.1):
+*Fixed a bug that caused some backstory settings to be incorrect
+
+2023/01/15(0.1.1.0):
+*Architect categories have been merged
+
+2023/01/08(0.1.0.4):
+*The setting was changed so that the gene of Biotech's appearance system cannot be adapted
+
+2023/01/06(0.1.0.3):
+*Corrected ear layer position
+
+*Support for the function of fertility change through Biotech linkage of HAR
+
+2022/12/04(0.1.0.0):
+*Release
+</Glassy.Update.label>
+
+
+</LanguageData>

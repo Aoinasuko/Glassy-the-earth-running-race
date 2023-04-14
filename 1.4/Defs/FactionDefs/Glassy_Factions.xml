@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Glassy_WildGlassy</defName>
+    <label>Wild Glassy</label>
+    <description>Glassy herd. Since they do not have a fixed place of residence, it is rare to encounter them.</description>
+    <colorSpectrum>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <pawnSingular>Wild Glassy</pawnSingular>
+    <pawnsPlural>Wild Glassies</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <hidden>true</hidden>
+    <rescueesCanJoin>true</rescueesCanJoin>
+    <autoFlee>false</autoFlee>
+    <classicIdeo>false</classicIdeo>
+    <factionIconPath>Glassy/UI/Faction</factionIconPath>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <structureMemeWeights>
+      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">10</Structure_Animist>
+    </structureMemeWeights>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Glassy_Story_Normal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <settlementTexturePath>Glassy/UI/Faction</settlementTexturePath>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </FactionDef>
+
+</Defs>

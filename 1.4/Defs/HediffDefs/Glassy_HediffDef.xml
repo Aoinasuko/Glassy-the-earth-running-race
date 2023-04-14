@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <HediffDef>
+    <defName>Glassy_Acceleration</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Acceleration</label>
+    <description>Temporarily increases leg strength, which significantly increases the speed of movement. At a cost, they are more likely to become hungry.</description>
+    <stages>
+      <li>
+        <hungerRateFactorOffset>4.0</hungerRateFactorOffset>
+        <statFactors>
+          <MoveSpeed>2.0</MoveSpeed>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="Glassy_Race.HediffCompProperties_DisappearFaction">
+      </li>
+    </comps>
+  </HediffDef>
+
+</Defs>

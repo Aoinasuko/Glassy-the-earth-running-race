@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Glassy_Knowledge.label>知識</Glassy_Knowledge.label>
+  <Glassy_Knowledge.description>グラシィーの知識を学び,アイテムやクラフトテーブルを作成できるようになります.</Glassy_Knowledge.description>
+
+  <Glassy_TrickKill.label>トリックキル</Glassy_TrickKill.label>
+  <Glassy_TrickKill.description>グラシィー用のショットガンを作成できるようになります.\n超短射程ですが,非常に高い火力を生み出します.</Glassy_TrickKill.description>
+
+  <Glassy_LastResort.label>最終手段</Glassy_LastResort.label>
+  <Glassy_LastResort.description>周囲の敵をスタンさせる,スタンボムを作成できるようになります.</Glassy_LastResort.description>
+
+  <Glassy_FoodCompression.label>圧縮食料</Glassy_FoodCompression.label>
+  <Glassy_FoodCompression.description>ペミカンを圧縮し,軽量化を行った食べ物を作成できるようになります.</Glassy_FoodCompression.description>
+
+  <Glassy_Costumes.label>衣装</Glassy_Costumes.label>
+  <Glassy_Costumes.description>グラシィーの衣装を作成できるようになります.</Glassy_Costumes.description>
+
+
+</LanguageData>

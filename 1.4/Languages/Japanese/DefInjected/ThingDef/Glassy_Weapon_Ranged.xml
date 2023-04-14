@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Glassy_FootDestruction.label>Glassy フート・デストラクション</Glassy_FootDestruction.label>
+  <Glassy_FootDestruction.description>敵の運動能力を確実に削ぐための改造ショットガンです.\n1度に5発の弾丸をバラ撒きます.\n\n&lt;color=#B1FBFF&gt;"ここはターフの上じゃない...血と土煙が舞う戦場だ.\n正々堂々と戦ったら,こちらが殺される."\n～あるグラシィーの一言～&lt;/color&gt;</Glassy_FootDestruction.description>
+  <Glassy_FootDestruction.tools.0.label>グリップ</Glassy_FootDestruction.tools.0.label>
+  <Glassy_FootDestruction.tools.1.label>バレル</Glassy_FootDestruction.tools.1.label>
+
+  <Glassy_BulletFootDestruction.label>弾丸</Glassy_BulletFootDestruction.label>
+
+
+</LanguageData>

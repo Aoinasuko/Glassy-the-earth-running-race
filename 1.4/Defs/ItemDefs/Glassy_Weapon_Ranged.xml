@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="Glassy_BaseWeapon_Ranged" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>true</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <tradeability>Sellable</tradeability>
+    <equipmentType>Primary</equipmentType>
+    <useHitPoints>true</useHitPoints>
+    <pathCost>14</pathCost>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <Beauty>5</Beauty>
+      <SellPriceFactor>0.20</SellPriceFactor>
+    </statBases>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <burnableByRecipe>true</burnableByRecipe>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    <relicChance>0</relicChance>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_MakeBow</soundWorking>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="Glassy_BaseWeapon_Ranged">
+    <defName>Glassy_FootDestruction</defName>
+    <label>Glassy Foot Destruction</label>
+    <description>This weapon was designed to reliably reduce the enemy's mobility. It fires 5 bullets at a time.\n\n&lt;color=#B1FBFF&gt;"This is not on the turf. This is a battlefield of blood and dust. If we fight fair, we will be killed."&lt;/color&gt;</description>
+    <graphicData>
+      <texPath>Glassy/Weapon/FootDestruction</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>0.25</Mass>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.15</AccuracyShort>
+      <AccuracyMedium>0.01</AccuracyMedium>
+      <AccuracyLong>0.01</AccuracyLong>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>Glassy_LowTier</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Ranged</li>
+    </weaponClasses>
+    <recipeMaker>
+      <recipeUsers>
+        <li>Glassy_CraftTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>Glassy_TrickKill</researchPrerequisite>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Glassy_BulletFootDestruction</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>7.9</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>Shot_Revolver</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Glassy_BulletFootDestruction</defName>
+    <label>shotgun blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.65</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Glassy the Earth Running Race</name>
+  <author>Aoi_nasuko</author>
+  <packageId>bep.glassy.terr</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      <downloadUrl></downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>Nals.FacialAnimation</li>
+    <li>Nals.FacialAnimationExperimentals</li>
+  </loadAfter>
+  <description><![CDATA[
+【対応言語】
+日本語
+English(Machine translation)
+
+地を駆ける半馬人、グラシィー。
+
+<color=#77FFFF><size=20>＊概要</size></color>
+このMODはLittle Fairy RopeWorkTaleに実装していたグラシィーを分離し、作成し直したMODです。
+高い素早さを持つ種族、グラシィーを追加します。
+
+<color=#77FFFF><size=15>＊ストーリー</size></color>
+グラシィーはある時突然いくつかの星々にて発見された比較的新しい種族です。
+得られた遺伝子情報から、モフィーの近縁種とされていますが、その体には馬の遺伝子が含まれています。
+グラシィー達は基本的にコロニーを作らず、自由気ままに旅をしながら一生を過ごしています。
+そのため、彼女たちの持つ技術はキャラバンの行動に大いに役立つでしょう。
+
+<color=#77FFFF><size=15>＊入手方法</size></color>
+-時折、奴隷として売られているため購入して入手
+-イベントで出現するグラシィーをテイムして入手
+
+<color=#77FFFF><size=15>＊特徴</size></color>
+<color=#77FFFF>-体格が人間より少し小さい</color>
+<color=#77FFFF>-移動速度が早い</color>
+<color=#77FFFF>-専用スキルによって、一時的に移動速度を高めることが出来る</color>
+<color=#77FFFF>-多くのアイテムを運ぶことが出来る</color>
+<color=#77FFFF>-近接回避率が高い</color>
+<color=#77FFFF>-精神感応性が高い</color>
+<color=#77FFFF>-死体を解体してもペナルティを受けず、食べても人肉扱いではない</color>
+<color=#77FFFF>-Ideorogy導入時、奴隷状態の時に脱走しない</color>
+<color=#77FFFF>-人間の武器が装備可能</color>
+
+<color=#FF7777>-部位HPが人間より少し低い</color>
+<color=#FF7777>-物覚えがほんの少し悪い</color>
+<color=#FF7777>-暑さに少し弱い</color>
+
+<color=#77FFFF><size=20>＊その他、このMODで追加されるもの</size></color>
+-グラシィーの研究が追加されます。
+-グラシィーの建築物を追加します。
+-グラシィーの衣装と武器を追加します。
+
+]]></description>
+</ModMetaData>

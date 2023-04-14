@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchTabDef>
+		<defName>Glassy_Research</defName>
+		<label>Glassy</label>
+	</ResearchTabDef>
+	
+	<ResearchProjectDef>
+	    <defName>Glassy_Knowledge</defName>
+	    <label>Knowledge</label>
+	    <description>You will learn about Glassy.</description>
+	    <baseCost>500</baseCost>
+	    <techLevel>Neolithic</techLevel>
+	    <tab>
+	      <li>Glassy_Research</li>
+	    </tab>
+	    <researchViewX>0</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Glassy_TrickKill</defName>
+	    <label>Trick Kill</label>
+	    <description>Allows glassy to create an optimized shotgun for use. Although the range is short, it can inflict extremely high damage.</description>
+	    <baseCost>1500</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Glassy_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Glassy_Knowledge</li>
+	      <li>Gunsmithing</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Glassy_LastResort</defName>
+	    <label>LastResort</label>
+	    <description>As a means of getting cornered, you will be able to create a flash ball that will stun surrounding enemies.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Glassy_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Glassy_TrickKill</li>
+	    </prerequisites>
+	    <researchViewX>2</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Glassy_FoodCompression</defName>
+	    <label>Food Compression</label>
+	    <description>Learn how to compress Pemmican to make it a more portable food.</description>
+	    <baseCost>500</baseCost>
+	    <techLevel>Neolithic</techLevel>
+	    <tab>
+	      <li>Glassy_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Glassy_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Glassy_Costumes</defName>
+	    <label>Costumes</label>
+	    <description>It will allow you to create Glassy outfits.</description>
+	    <baseCost>500</baseCost>
+	    <techLevel>Medieval</techLevel>
+	    <tab>
+	      <li>Glassy_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Glassy_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

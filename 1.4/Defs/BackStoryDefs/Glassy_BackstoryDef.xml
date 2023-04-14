@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 通常の子供 -->
+
+	<AlienRace.AlienBackstoryDef Name="Glassy_BaseBackStory_Normal" Abstract="True">
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>Glassy_Story_Normal</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Normal">
+		<defName>Glassy_Normal_Child_A</defName>
+		<title>Hunter's Child</title>
+		<titleShort>Hunter's Child</titleShort>
+		<baseDesc>[PAWN_nameDef] was taught as a child with an emphasis on the means of hunting prey. Because of this experience, she knows how to hunt deer.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Normal">
+		<defName>Glassy_Normal_Child_B</defName>
+		<title>Collecting Children</title>
+		<titleShort>Collecting Children</titleShort>
+		<baseDesc>[PAWN_nameDef] knew better than anyone how to get edible fruit from the great outdoors. That experience has served him well in cultivation.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Normal">
+		<defName>Glassy_Normal_Child_C</defName>
+		<title>Child with a Commercial Spirit</title>
+		<titleShort>Commercial Spirit</titleShort>
+		<baseDesc>When [PAWN_nameDef] was a child, she used to observe adults trading with different species. This experience made her a bit better at trading.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Normal">
+		<defName>Glassy_Normal_Child_D</defName>
+		<title>Child Watching a Blacksmith</title>
+		<titleShort>Blacksmith</titleShort>
+		<baseDesc>Living in a different colony, [PAWN_nameDef] often observed blacksmithing. From this experience, she acquired a little knowledge of blacksmithing.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Normal">
+		<defName>Glassy_Normal_Child_E</defName>
+		<title>Children watching Medical</title>
+		<titleShort>Medical</titleShort>
+		<baseDesc>Living in a different colony, [PAWN_nameDef] was often under the care of a doctor because she was constantly injured. This experience taught her a bit of medical knowledge.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Normal">
+		<defName>Glassy_Normal_Adult_A</defName>
+		<title>Glassy's Hunter</title>
+		<titleShort>Hunter</titleShort>
+		<baseDesc>[PAWN_nameDef] is a fearsome hunter who can handle a gun with precision.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Normal">
+		<defName>Glassy_Normal_Adult_B</defName>
+		<title>Glassy's Collector</title>
+		<titleShort>Collector</titleShort>
+		<baseDesc>[PAWN_nameDef] worked tirelessly to gather fruit from the surrounding environment in order to collect the fruits and other ingredients needed for preserves. This experience gave her a very high aptitude for cultivation.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Normal">
+		<defName>Glassy_Normal_Adult_C</defName>
+		<title>Glassy's Cook</title>
+		<titleShort>Cook</titleShort>
+		<baseDesc>[PAWN_nameDef] had the role of preserving food that was gathered by her friends. This experience gave her a very high aptitude for cooking.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Normal">
+		<defName>Glassy_Normal_Adult_D</defName>
+		<title>Glassy's Trader</title>
+		<titleShort>Trader</titleShort>
+		<baseDesc>[PAWN_nameDef] traded with different tribes. This experience gave her a very high level of sociability.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- 奴隷の子供 -->
+	
+	<AlienRace.AlienBackstoryDef Name="Glassy_BaseBackStory_Slave" Abstract="True">
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>Glassy_Story_Slave</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Slave">
+		<defName>Glassy_Slave_Child_A</defName>
+		<title>Farmed Child</title>
+		<titleShort>Farmed</titleShort>
+		<baseDesc>[PAWN_nameDef] was born by aquaculture in an experimental facility. She was trained in various labors in order to be able to do one thing.</baseDesc>
+		<slot>Childhood</slot>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Slave">
+		<defName>Glassy_Slave_Child_B</defName>
+		<title>Stray Child</title>
+		<titleShort>Stray</titleShort>
+		<baseDesc>[PAWN_nameDef] had somehow strayed from the herd. She was then captured by a slaver of a different race and turned into merchandise.</baseDesc>
+		<slot>Childhood</slot>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Slave">
+		<defName>Glassy_Slave_Adult_A</defName>
+		<title>Glassy Mining Slave</title>
+		<titleShort>Mining Slave</titleShort>
+		<baseDesc>[PAWN_nameDef] worked as a slave digging mines. Because of their aptitude for carrying things, they were also useful as ore carriers.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Mining</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Slave">
+		<defName>Glassy_Slave_Adult_B</defName>
+		<title>Glassy Combat Slave</title>
+		<titleShort>Combat Slave</titleShort>
+		<baseDesc>[PAWN_nameDef] worked as a slave soldier. Some people were horrified by the sight of him holding a shotgun in his hand and taking out the enemy ahead of him.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Glassy_BaseBackStory_Slave">
+		<defName>Glassy_Slave_Adult_C</defName>
+		<title>Glassy Craft Slave</title>
+		<titleShort>Craft Slave</titleShort>
+		<baseDesc>[PAWN_nameDef] worked as a slave solely to make weapons.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+</Defs>

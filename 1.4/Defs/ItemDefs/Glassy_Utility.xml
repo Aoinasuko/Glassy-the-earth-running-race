@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>Glassy_StunBomb</defName>
+    <label>Glassy StunBomb</label>
+    <description>It is a special stun grenade that is filled by sunlight or moonlight. It can stun all organisms around itself for a long time.</description>
+    <graphicData>
+      <texPath>Glassy/Weapon/FlashBang</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <Mass>0.5</Mass>
+      <EquipDelay>2</EquipDelay>
+      <MarketValue>550</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>Glassy_Apparel</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </apparel>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>false</burnableByRecipe>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <verbs>
+      <li>
+        <verbClass>Glassy_Race.Verb_StunBomb</verbClass>
+        <label>Stun Bomb</label>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>10.9</range>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+        <violent>false</violent>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <baseReloadTicks>60000</baseReloadTicks>
+        <chargeNoun>charge</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>Glassy_CraftTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_MakeBow</soundWorking>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <researchPrerequisite>Glassy_LastResort</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

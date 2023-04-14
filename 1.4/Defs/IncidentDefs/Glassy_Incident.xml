@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <IncidentDef>
+    <defName>Glassy_Passes</defName>
+    <label>Glassy Pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Glassy_Race.IncidentWorker_GlassyPass</workerClass>
+    <baseChance>1.6</baseChance>
+    <minRefireDays>60</minRefireDays>
+  </IncidentDef>
+  
+</Defs>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Glassy.Incident.LetterLabelGlassyPass>グラシィーの来訪</Glassy.Incident.LetterLabelGlassyPass>
+  <Glassy.Incident.LetterGlassyPass>群れからはぐれたグラシィーがあなたのコロニーの近くにやってきました.\n彼女の力を借りたいのであればテイムを試みることが出来ます.</Glassy.Incident.LetterGlassyPass>
+
+  <Glassy.UI.label_Acceleration>アクセラレーション</Glassy.UI.label_Acceleration>
+  <Glassy.UI.desc_Acceleration>脚力に力を集中させ,移動速度を倍にします.\n代償として空腹速度が大幅に上昇します.</Glassy.UI.desc_Acceleration>
+  <Glassy.UI.disabled_Acceleration>ダウン中は使用できない</Glassy.UI.disabled_Acceleration>
+
+</LanguageData>

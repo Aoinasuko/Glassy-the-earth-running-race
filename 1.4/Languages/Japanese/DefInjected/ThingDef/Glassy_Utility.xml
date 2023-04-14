@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Glassy_StunBomb.label>Glassy スタンボム</Glassy_StunBomb.label>
+  <Glassy_StunBomb.description>日光か月光で充填できる,チャージ式のスタンボムです.\n使用すると,範囲内に強烈な煙とEMP電磁波を撒き散らしてあらゆる敵をスタンさせます.\n1度使用した後は1日のチャージ時間が必要です.</Glassy_StunBomb.description>
+  <Glassy_StunBomb.verbs.0.label>スタンボム</Glassy_StunBomb.verbs.0.label>
+
+
+</LanguageData>

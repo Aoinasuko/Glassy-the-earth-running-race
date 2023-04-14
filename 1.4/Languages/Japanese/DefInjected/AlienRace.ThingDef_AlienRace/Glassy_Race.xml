@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Glassy_Pawn.label>グラシィー</Glassy_Pawn.label>
+  <Glassy_Pawn.description>グラシィーは馬のような耳と尻尾を持つ生物です.\n体型はモフィーに似ており,モフィーの近縁種とも言われています.\n普段はおっとりしており,一見遅い用に見えますが本気を出すとリトルフェアリーを超えた移動速度を見せつけてきます.\n彼女たちは基本的に一点にとどまる生活をせず,日々いろいろな場所を巡っているため中々会うことが出来ないでしょう.\n時折,彼女たちがその足の速さを生かした射撃武器での狩りを行っている姿を見ることがあります.</Glassy_Pawn.description>
+  <Glassy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</Glassy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Glassy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</Glassy_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <Glassy_Pawn.tools.0.label>歯</Glassy_Pawn.tools.0.label>
+  <Glassy_Pawn.tools.1.label>左拳</Glassy_Pawn.tools.1.label>
+  <Glassy_Pawn.tools.2.label>右拳</Glassy_Pawn.tools.2.label>
+  <Glassy_Pawn.tools.3.label>ドロップキック</Glassy_Pawn.tools.3.label>
+
+
+</LanguageData>

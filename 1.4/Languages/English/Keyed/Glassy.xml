@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Glassy.Incident.LetterLabelGlassyPass>Glassy Pass</Glassy.Incident.LetterLabelGlassyPass>
+  <Glassy.Incident.LetterGlassyPass>Glassy, a stray from the herd, has arrived near your colony.\nIf you wish to take advantage of her, you can try to tame her in.</Glassy.Incident.LetterGlassyPass>
+
+  <Glassy.UI.label_Acceleration>Acceleration</Glassy.UI.label_Acceleration>
+  <Glassy.UI.desc_Acceleration>Concentrates power in the legs and doubles the speed of movement.\nThe hunger speed is greatly increased in return.</Glassy.UI.desc_Acceleration>
+  <Glassy.UI.disabled_Acceleration>Cannot be used while down</Glassy.UI.disabled_Acceleration>
+
+</LanguageData>

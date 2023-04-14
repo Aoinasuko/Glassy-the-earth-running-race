@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 通常の子供 -->
+
+  <Glassy_Normal_Child_A.title>狩人の子供</Glassy_Normal_Child_A.title>
+  <Glassy_Normal_Child_A.titleShort>狩人の子供</Glassy_Normal_Child_A.titleShort>
+  <Glassy_Normal_Child_A.baseDesc>[PAWN_nameDef]は子供の頃に,獲物を狩る手段を重点的に教わりました.\nその経験から,彼女は鹿を狩る方法を熟知しています.</Glassy_Normal_Child_A.baseDesc>
+
+  <Glassy_Normal_Child_B.title>採取の子供</Glassy_Normal_Child_B.title>
+  <Glassy_Normal_Child_B.titleShort>採取の子供</Glassy_Normal_Child_B.titleShort>
+  <Glassy_Normal_Child_B.baseDesc>[PAWN_nameDef]は大自然の中で食べられる果実を手に入れる方法を誰よりも知っていました.\nその経験は,栽培にも役立っています.</Glassy_Normal_Child_B.baseDesc>
+
+  <Glassy_Normal_Child_C.title>商魂を持つ子供</Glassy_Normal_Child_C.title>
+  <Glassy_Normal_Child_C.titleShort>商魂</Glassy_Normal_Child_C.titleShort>
+  <Glassy_Normal_Child_C.baseDesc>[PAWN_nameDef]が子供の頃,異種族との交易を行う大人たちの姿をよく観察していました.\nその経験から,彼女は少し交易が得意になりました.</Glassy_Normal_Child_C.baseDesc>
+
+  <Glassy_Normal_Child_D.title>鍛冶を見る子供</Glassy_Normal_Child_D.title>
+  <Glassy_Normal_Child_D.titleShort>鍛冶</Glassy_Normal_Child_D.titleShort>
+  <Glassy_Normal_Child_D.baseDesc>異種族のコロニーに住んでいた[PAWN_nameDef]は,よく鍛冶の様子を観察していました.\nその経験から,彼女は鍛冶の知識を少し手に入れました.</Glassy_Normal_Child_D.baseDesc>
+
+  <Glassy_Normal_Child_E.title>医療を見る子供</Glassy_Normal_Child_E.title>
+  <Glassy_Normal_Child_E.titleShort>医療</Glassy_Normal_Child_E.titleShort>
+  <Glassy_Normal_Child_E.baseDesc>異種族のコロニーに住んでいた[PAWN_nameDef]は,怪我ばかりしていたためよく医者のお世話になっていました.\nその経験から,彼女は医療の知識を少し教わりました.</Glassy_Normal_Child_E.baseDesc>
+
+  <Glassy_Normal_Adult_A.title>グラシィーの狩人</Glassy_Normal_Adult_A.title>
+  <Glassy_Normal_Adult_A.titleShort>狩人</Glassy_Normal_Adult_A.titleShort>
+  <Glassy_Normal_Adult_A.baseDesc>[PAWN_nameDef]は正確に銃を扱える恐ろしい狩人です.\nその視線に狙われた鹿は助からないでしょう.</Glassy_Normal_Adult_A.baseDesc>
+
+  <Glassy_Normal_Adult_B.title>グラシィーの採取係</Glassy_Normal_Adult_B.title>
+  <Glassy_Normal_Adult_B.titleShort>Collector</Glassy_Normal_Adult_B.titleShort>
+  <Glassy_Normal_Adult_B.baseDesc>[PAWN_nameDef]は保存食に必要な果実などを集めるために,ひたすら周囲の環境から果実の採取を行っていました.\nその経験は非常に高い栽培への適性を手に入れました.</Glassy_Normal_Adult_B.baseDesc>
+
+  <Glassy_Normal_Adult_C.title>グラシィーの料理人</Glassy_Normal_Adult_C.title>
+  <Glassy_Normal_Adult_C.titleShort>料理人</Glassy_Normal_Adult_C.titleShort>
+  <Glassy_Normal_Adult_C.baseDesc>[PAWN_nameDef]は仲間が集めた食料を,保存食にする役割を持っていました.\nその経験は非常に高い料理への適性を手に入れました.</Glassy_Normal_Adult_C.baseDesc>
+
+  <Glassy_Normal_Adult_D.title>グラシィーの交易家</Glassy_Normal_Adult_D.title>
+  <Glassy_Normal_Adult_D.titleShort>交易家</Glassy_Normal_Adult_D.titleShort>
+  <Glassy_Normal_Adult_D.baseDesc>[PAWN_nameDef]は異種族との交易を行っていました.\nその経験によって,非常に高い社交性を手に入れました.</Glassy_Normal_Adult_D.baseDesc>
+
+  <!-- 奴隷の子供 -->
+
+  <Glassy_Slave_Child_A.title>養殖された子供</Glassy_Slave_Child_A.title>
+  <Glassy_Slave_Child_A.titleShort>養殖</Glassy_Slave_Child_A.titleShort>
+  <Glassy_Slave_Child_A.baseDesc>[PAWN_nameDef]はある実験施設にて,養殖によって産まれました.\n一通りの事を出来るようになるため,様々な労働のトレーニングを行っていました.</Glassy_Slave_Child_A.baseDesc>
+
+  <Glassy_Slave_Child_B.title>群れからはぐれた子供</Glassy_Slave_Child_B.title>
+  <Glassy_Slave_Child_B.titleShort>はぐれ</Glassy_Slave_Child_B.titleShort>
+  <Glassy_Slave_Child_B.baseDesc>[PAWN_nameDef]はいつの間にか,群れからはぐれていました.\nそして異種族の奴隷商人に捕まり,商品にされてしまいました.</Glassy_Slave_Child_B.baseDesc>
+
+  <Glassy_Slave_Adult_A.title>グラシィーの採掘奴隷</Glassy_Slave_Adult_A.title>
+  <Glassy_Slave_Adult_A.titleShort>採掘奴隷</Glassy_Slave_Adult_A.titleShort>
+  <Glassy_Slave_Adult_A.baseDesc>[PAWN_nameDef]は炭鉱を掘る奴隷として働いていました.\n物を運ぶ適性が高いため,鉱石を運ぶ役としても重宝されていました.</Glassy_Slave_Adult_A.baseDesc>
+
+  <Glassy_Slave_Adult_B.title>グラシィーの戦闘奴隷</Glassy_Slave_Adult_B.title>
+  <Glassy_Slave_Adult_B.titleShort>戦闘奴隷</Glassy_Slave_Adult_B.titleShort>
+  <Glassy_Slave_Adult_B.baseDesc>[PAWN_nameDef]は奴隷の兵士として働いていました.\nショットガンを手に持ち,先陣を切って敵を倒す姿に恐怖する人間もいたようです.</Glassy_Slave_Adult_B.baseDesc>
+
+  <Glassy_Slave_Adult_C.title>グラシィーの工芸奴隷</Glassy_Slave_Adult_C.title>
+  <Glassy_Slave_Adult_C.titleShort>工芸奴隷</Glassy_Slave_Adult_C.titleShort>
+  <Glassy_Slave_Adult_C.baseDesc>[PAWN_nameDef]はひたすら武器を作る奴隷として働いていました.</Glassy_Slave_Adult_C.baseDesc>
+
+
+</LanguageData>
