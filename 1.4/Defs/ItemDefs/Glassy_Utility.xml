@@ -19,7 +19,7 @@
     </statBases>
     <tickerType>Normal</tickerType>
     <thingCategories>
-      <li>Glassy_Apparel</li>
+      <li>BEP_Apparel</li>
     </thingCategories>
     <apparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>

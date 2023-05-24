@@ -68,20 +68,4 @@
 	    <researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef>
-	    <defName>Glassy_Costumes</defName>
-	    <label>Costumes</label>
-	    <description>It will allow you to create Glassy outfits.</description>
-	    <baseCost>500</baseCost>
-	    <techLevel>Medieval</techLevel>
-	    <tab>
-	      <li>Glassy_Research</li>
-	    </tab>
-	    <prerequisites>
-	      <li>Glassy_Knowledge</li>
-	    </prerequisites>
-	    <researchViewX>1</researchViewX>
-	    <researchViewY>5</researchViewY>
-	</ResearchProjectDef>
-	
 </Defs>

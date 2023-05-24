@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+	<AlienRace.ThingDef_AlienRace Tag="BEPRace" ParentName="BasePawn">
 		<defName>Glassy_Pawn</defName>
 		<label>Glassy</label>
 		<description>Glassy is a creature with horse-like ears and tail. Its body shape is similar to that of Mofy and it is said to be a close relative of Mofy.\nThe reality is that B.E.P&#160;Fairy&#160;Tech is a creature born as a result of one human's desire to live. After the first Glassy was born, it succeeded in increasing its numbers on one planet, and before long it began assisting humans and living in the wild on several planets.\nThey are not usually very fast on their feet, but when they get serious, they can move faster than little fairy.</description>
@@ -68,7 +68,7 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 					</bodyTypes>
-					<headOffset>(-0.1, -0.186)</headOffset>
+					<headOffset>(-0.1, -0.26)</headOffset>
 					<customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
 					<colorChannels>
 						<li>
@@ -149,10 +149,11 @@
 					<bodyAddons>
 						<!-- 子供と大人体型の耳 -->
 						<li>
-							<path>Glassy/Race/Ear/Adult/Left/LEar</path>
+							<path>BEPRaceCore/Race/GlassyEar/Adult/Left/LEar</path>
 							<bodytypeGraphics>
-								<Baby MayRequire="Ludeon.RimWorld.Biotech">Glassy/Race/Ear/None/None</Baby>
+								<Baby MayRequire="Ludeon.RimWorld.Biotech">BEPRaceCore/Race/GlassyEar/None/None</Baby>
 							</bodytypeGraphics>
+							<alignWithHead>true</alignWithHead>
 							<bodyPartLabel>left ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<layerInvert>true</layerInvert>
@@ -175,10 +176,11 @@
 							</offsets>
 						</li>
 						<li>
-							<path>Glassy/Race/Ear/Adult/Right/REar</path>
+							<path>BEPRaceCore/Race/GlassyEar/Adult/Right/REar</path>
 							<bodytypeGraphics>
-								<Baby MayRequire="Ludeon.RimWorld.Biotech">Glassy/Race/Ear/None/None</Baby>
+								<Baby MayRequire="Ludeon.RimWorld.Biotech">BEPRaceCore/Race/GlassyEar/None/None</Baby>
 							</bodytypeGraphics>
+							<alignWithHead>true</alignWithHead>
 							<bodyPartLabel>right ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<layerInvert>true</layerInvert>
@@ -202,10 +204,11 @@
 						</li>
 						<!-- 赤ちゃん体型の耳 -->
 						<li>
-							<path>Glassy/Race/Ear/None/None</path>
+							<path>BEPRaceCore/Race/GlassyEar/None/None</path>
 							<bodytypeGraphics>
-								<Baby MayRequire="Ludeon.RimWorld.Biotech">Glassy/Race/Ear/Baby/Left/LEar</Baby>
+								<Baby MayRequire="Ludeon.RimWorld.Biotech">BEPRaceCore/Race/GlassyEar/Baby/Left/LEar</Baby>
 							</bodytypeGraphics>
+							<alignWithHead>true</alignWithHead>
 							<bodyPartLabel>left ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<layerInvert>true</layerInvert>
@@ -228,10 +231,11 @@
 							</offsets>
 						</li>
 						<li>
-							<path>Glassy/Race/Ear/None/None</path>
+							<path>BEPRaceCore/Race/GlassyEar/None/None</path>
 							<bodytypeGraphics>
-								<Baby MayRequire="Ludeon.RimWorld.Biotech">Glassy/Race/Ear/Baby/Right/REar</Baby>
+								<Baby MayRequire="Ludeon.RimWorld.Biotech">BEPRaceCore/Race/GlassyEar/Baby/Right/REar</Baby>
 							</bodytypeGraphics>
+							<alignWithHead>true</alignWithHead>
 							<bodyPartLabel>right ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<layerInvert>true</layerInvert>
@@ -254,12 +258,20 @@
 							</offsets>
 						</li>
 						<li>
-							<path>Glassy/Race/Tail/Tail</path>
+							<path>BEPRaceCore/Race/GlassyTail/GlassyTail</path>
 							<bodyPart>Glassy_Tail</bodyPart>
 							<inFrontOfBody>false</inFrontOfBody>
 							<drawSize>1</drawSize>
 							<colorChannel>hair</colorChannel>
 							<drawnInBed>false</drawnInBed>
+							<offsets>
+								<east>
+									<bodyTypes>
+										<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.05,0)</Baby>
+										<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.05,0)</Child>
+									</bodyTypes>
+								</east>
+							</offsets>
 						</li>
 					</bodyAddons>
 				</alienPartGenerator>
@@ -290,10 +302,12 @@
 				</growthAges>
 			</generalSettings>
 			<graphicPaths>
-				<head>Glassy/Race/Head/Average_Normal</head>
-				<body>Glassy/Race/Body/</body>
-				<skeleton>Glassy/Race/Bone/Bone</skeleton>
-				<skull>Glassy/Race/HeadBone/HeadBone</skull>
+				<head>BEPRaceCore/Race/Head/Average_Normal</head>
+				<body>BEPRaceCore/Race/Body/Normal/</body>
+				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
+				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
+				<skinShader>CutoutSkin</skinShader>
+				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
 			<relationSettings>
 				<relationChanceModifierLover>0</relationChanceModifierLover>
@@ -311,18 +325,6 @@
 					<li>Glassy_FootDestruction</li>
 				</weaponList>
 				<apparelList>
-					<li>Glassy_SimpleCloth</li>
-					<li>Glassy_SimpleCollor</li>
-					<li>Glassy_SlaveStrap</li>
-					<li>Glassy_Blindfold</li>
-					<li>Glassy_BlindfoldandGag</li>
-					<li>Glassy_StunBomb</li>
-					<li>Glassy_MaidBand</li>
-					<li>Glassy_MaidCloth</li>
-					<li>Glassy_NobleCape</li>
-					<li>Glassy_NobleCloth</li>
-					<li>Glassy_SwimSuit</li>
-					<li>Glassy_SimpleArmor</li>
 				</apparelList>
 				<blackGeneList>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
@@ -375,7 +377,7 @@
 					<value>
 						<hasStyle>true</hasStyle>
 						<styleTagsOverride>
-							<li>Glassy</li>
+							<li>BEPRace</li>
 						</styleTagsOverride>
 					</value>
 				</li>
@@ -585,6 +587,15 @@
 		<comps>
 			<li Class="Glassy_Race.CompProperties_Glassy" />
 		</comps>
+		<modExtensions>
+			<li Class="BEPRace_Core.BEPRace_Setting">
+				<ignoreDead>false</ignoreDead>
+				<fleeMeat>true</fleeMeat>
+				<ignoreAge>true</ignoreAge>
+				<ignoreFlee>true</ignoreFlee>
+				<slaveWorkSpeed>1.0</slaveWorkSpeed>
+			</li>
+		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
 	
 	<LifeStageDef>
