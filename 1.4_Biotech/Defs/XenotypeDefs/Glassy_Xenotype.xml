@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>Glassy_Glassy</defName>
+    <label>Glassy</label>
+    <description>It is a basic Glassy.</description>
+    <iconPath>BEPRaceCore/UI/Race/BEPRace</iconPath>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>BEP_BrilliancePower</li>
+      <li>BEP_Brilliance_SwiftHorse</li>
+      <li>WoundHealing_Fast</li>
+      <li>FireWeakness</li>
+      <li>Aggression_HyperAggressive</li>
+      <li>Unstoppable</li>
+      <li>AptitudeStrong_Melee</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

@@ -34,7 +34,7 @@
     <settlementTexturePath>Glassy/UI/Faction</settlementTexturePath>
     <xenotypeSet>
       <xenotypeChances>
-        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+        <Glassy_Glassy MayRequire="Ludeon.RimWorld.Biotech">1.0</Glassy_Glassy>
       </xenotypeChances>
     </xenotypeSet>
     <modExtensions>
