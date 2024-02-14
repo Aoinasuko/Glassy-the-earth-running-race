@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+	<!-- weaponList追加 -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Tag="BEPRace"]</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Tag="BEPRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Tag="BEPRace"]/alienRace/raceRestriction</xpath>
+				<value>
+					<whiteApparelList>
+					</whiteApparelList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- BEP種族に装備可能にさせる -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Tag="BEPRace"]</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Tag="BEPRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+				<value>
+					<li>Glassy_StunBomb</li>
+					<li>Glassy_TentBall</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>

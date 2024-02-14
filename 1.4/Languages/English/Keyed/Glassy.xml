@@ -8,4 +8,8 @@
   <Glassy.UI.desc_Acceleration>Concentrates power in the legs and doubles the speed of movement.\nThe hunger speed is greatly increased in return.</Glassy.UI.desc_Acceleration>
   <Glassy.UI.disabled_Acceleration>Cannot be used while down</Glassy.UI.disabled_Acceleration>
 
+  <Glassy.UI.CantTent>The tent cannot be opened due to its proximity to the edge of the map.</Glassy.UI.CantTent>
+
+  <Glassy.UI.CaravanBonus>Glassy's Idea</Glassy.UI.CaravanBonus>
+
 </LanguageData>

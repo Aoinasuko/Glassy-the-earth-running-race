@@ -4,7 +4,7 @@
   <ThingDef ParentName="ApparelNoQualityBase">
     <defName>Glassy_StunBomb</defName>
     <label>Glassy StunBomb</label>
-    <description>It is a special stun grenade that is filled by sunlight or moonlight. It can stun all organisms around itself for a long time.</description>
+    <description>It is a special stun grenade that is filled by sunlight or moonlight. It can stun all organisms around itself for a long time.\n\n&lt;color=#B1FBFF&gt;This equipment would also be able to be equipped by other races with smaller body sizes and Human.&lt;/color&gt;</description>
     <graphicData>
       <texPath>Glassy/Weapon/FlashBang</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -14,8 +14,9 @@
     <statBases>
       <Mass>0.5</Mass>
       <EquipDelay>2</EquipDelay>
-      <MarketValue>550</MarketValue>
+      <MarketValue>1500</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>15000</WorkToMake>
     </statBases>
     <tickerType>Normal</tickerType>
     <thingCategories>
@@ -60,7 +61,6 @@
         <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
       </li>
     </comps>
-    <allowedArchonexusCount>1</allowedArchonexusCount>
     <costList>
       <Steel>75</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
@@ -79,6 +79,124 @@
       <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
       <researchPrerequisite>Glassy_LastResort</researchPrerequisite>
     </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>Glassy_TentBall</defName>
+    <label>Glassy TentBall</label>
+    <description>Developed by Glassy, this use-as-you-go device generates an emergency tent to protect against rain and wind.\n\nWhen used, it generates a room large enough to center around its location. The room generates a cooler that can be set to any temperature, some beds, and preserved food.\n\nIt is recommended to deploy in a large area to prevent damage to items.\n\n&lt;color=#B1FBFF&gt;This equipment would also be able to be equipped by other races with smaller body sizes and Human.&lt;/color&gt;</description>
+    <graphicData>
+      <texPath>Glassy/Item/TentBall/TentBall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <tradeability>All</tradeability>
+    <statBases>
+      <Mass>0.5</Mass>
+      <EquipDelay>0.1</EquipDelay>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </apparel>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>false</burnableByRecipe>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <verbs>
+      <li>
+        <verbClass>Glassy_Race.Verb_TentBall</verbClass>
+        <label>Tent Deployment</label>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>7.9</range>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+        <violent>false</violent>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <chargeNoun>charge</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <costList>
+      <WoodLog>75</WoodLog>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Pemmican>50</Pemmican>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>Glassy_CraftTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_MakeBow</soundWorking>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <researchPrerequisite>Glassy_TentBall</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Glassy_AC</defName>
+    <label>Glassy Tent AC</label>
+    <description>A powerful air conditioning system optimized for Glassy tents. The power of the glow allows you to regulate the temperature inside your tent as you wish without fuel.\n\nHowever, it is very unstable in structure and will eventually break down without maintenance as the system is regularly damaged. It is also not portable.</description>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Glassy/Build/Tent/AC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>14</pathCost>
+    <tickerType>Normal</tickerType>
+    <fillPercent>0.15</fillPercent>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(180,180,180,0)</glowColor>
+      </li>
+      <li Class="Glassy_Race.CompProperties_TempControlEx">
+        <energyPerSecond>30</energyPerSecond>
+      </li>
+    </comps>
   </ThingDef>
 
 </Defs>

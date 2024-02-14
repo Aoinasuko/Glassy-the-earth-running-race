@@ -38,7 +38,7 @@
 	
 	<ResearchProjectDef>
 	    <defName>Glassy_LastResort</defName>
-	    <label>LastResort</label>
+	    <label>Last Resort</label>
 	    <description>As a means of getting cornered, you will be able to create a flash ball that will stun surrounding enemies.</description>
 	    <baseCost>1000</baseCost>
 	    <techLevel>Industrial</techLevel>
@@ -66,6 +66,71 @@
 	    </prerequisites>
 	    <researchViewX>1</researchViewX>
 	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Glassy_TentBall</defName>
+	    <label>Tent Ball</label>
+	    <description>Developed by Glassy, it will be possible to produce an item that generates a tent with minimum facilities in case of an emergency while traveling.</description>
+	    <baseCost>1500</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Glassy_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Glassy_Knowledge</li>
+	      <li>Pemmican</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Glassy_CaravanSkill1</defName>
+	    <label>CaravanSkill Lv.1</label>
+	    <description>Learn Glassy's caravanning techniques to carry more cargo and be even less likely to be found by hostile enemy.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Glassy_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Glassy_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Glassy_CaravanSkill2</defName>
+	    <label>CaravanSkill Lv.2</label>
+	    <description>Learn Glassy's caravanning techniques to carry more cargo and be even less likely to be found by hostile enemy.</description>
+	    <baseCost>2000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Glassy_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Glassy_CaravanSkill1</li>
+	    </prerequisites>
+	    <researchViewX>2</researchViewX>
+	    <researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+	    <defName>Glassy_CaravanSkill3</defName>
+	    <label>CaravanSkill Lv.3</label>
+	    <description>Learn Glassy's caravanning techniques to carry more cargo and be even less likely to be found by hostile enemy.</description>
+	    <baseCost>3000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Glassy_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Glassy_CaravanSkill2</li>
+	    </prerequisites>
+	    <researchViewX>3</researchViewX>
+	    <researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 	
 </Defs>

@@ -29,7 +29,7 @@ namespace Glassy_Race
 	public class Glassy_Config : ModSettings
 	{
 		// バージョン
-		public static int ver = 210;
+		public static int ver = 222;
 
 		// アップデートバージョン
 		public static int Updatever = 0;

@@ -8,4 +8,8 @@
   <Glassy.UI.desc_Acceleration>脚力に力を集中させ,移動速度を倍にします.\n代償として空腹速度が大幅に上昇します.</Glassy.UI.desc_Acceleration>
   <Glassy.UI.disabled_Acceleration>ダウン中は使用できない</Glassy.UI.disabled_Acceleration>
 
+  <Glassy.UI.CantTent>マップ端に近いためテントを開くことができません.</Glassy.UI.CantTent>
+
+  <Glassy.UI.CaravanBonus>グラシィーの知識</Glassy.UI.CaravanBonus>
+
 </LanguageData>

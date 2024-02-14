@@ -13,4 +13,16 @@
   <Glassy_FoodCompression.label>圧縮食料</Glassy_FoodCompression.label>
   <Glassy_FoodCompression.description>ペミカンを圧縮し,軽量化を行った食べ物を作成できるようになります.</Glassy_FoodCompression.description>
 
+  <Glassy_TentBall.label>テントボール</Glassy_TentBall.label>
+  <Glassy_TentBall.description>旅先での緊急時に備え,テントを展開することができるテントボールを作成できるようになります.</Glassy_TentBall.description>
+
+  <Glassy_CaravanSkill1.label>キャラバンの知恵 Lv.1</Glassy_CaravanSkill1.label>
+  <Glassy_CaravanSkill1.description>グラシィーの効率的なキャラバン知識を学び,旅の途中で敵に発見されにくくなったりより多くの荷物をキャラバンに積むことができるようになります.</Glassy_CaravanSkill1.description>
+
+  <Glassy_CaravanSkill2.label>キャラバンの知恵 Lv.2</Glassy_CaravanSkill2.label>
+  <Glassy_CaravanSkill2.description>グラシィーの効率的なキャラバン知識を学び,旅の途中で敵に発見されにくくなったりより多くの荷物をキャラバンに積むことができるようになります.</Glassy_CaravanSkill2.description>
+
+  <Glassy_CaravanSkill3.label>キャラバンの知恵 Lv.3</Glassy_CaravanSkill3.label>
+  <Glassy_CaravanSkill3.description>グラシィーの効率的なキャラバン知識を学び,旅の途中で敵に発見されにくくなったりより多くの荷物をキャラバンに積むことができるようになります.</Glassy_CaravanSkill3.description>
+
 </LanguageData>
