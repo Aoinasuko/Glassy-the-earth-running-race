@@ -313,6 +313,7 @@
 				<body>BEPRaceCore/Race/Body/Normal/</body>
 				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
 				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
+				<swaddle>BEPRaceCore/Race/Dummy/Dummy</swaddle>
 				<skinShader>Cutout</skinShader>
 				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
@@ -626,6 +627,7 @@
 		<defName>Glassy_Child</defName>
 		<label>Glassy Child</label>
 		<reproductive>false</reproductive>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
 		<visible>false</visible>
 		<developmentalStage>Child</developmentalStage>
 		<statFactors>
@@ -639,6 +641,7 @@
 		<defName>Glassy_Adult</defName>
 		<label>Glassy Adult</label>
 		<reproductive>true</reproductive>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
 		<milkable>true</milkable>
 		<visible>false</visible>
 		<developmentalStage>Adult</developmentalStage>

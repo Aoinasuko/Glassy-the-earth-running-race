@@ -76,7 +76,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smelt</effectWorking>
       <soundWorking>Recipe_MakeBow</soundWorking>
-      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>Glassy_LastResort</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
@@ -158,7 +158,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smelt</effectWorking>
       <soundWorking>Recipe_MakeBow</soundWorking>
-      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>Glassy_TentBall</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
